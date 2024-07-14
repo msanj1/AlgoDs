@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WordSearch", "Console\WordSearch.csproj", "{22FA3E22-23E4-4900-A196-B7ED86803FA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{CD18B2D5-0021-493B-A24D-AD1BBF070337}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{A6A0CCB4-B693-4254-8495-CD5BE84A7852}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{22FA3E22-23E4-4900-A196-B7ED86803FA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22FA3E22-23E4-4900-A196-B7ED86803FA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22FA3E22-23E4-4900-A196-B7ED86803FA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22FA3E22-23E4-4900-A196-B7ED86803FA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD18B2D5-0021-493B-A24D-AD1BBF070337}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD18B2D5-0021-493B-A24D-AD1BBF070337}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD18B2D5-0021-493B-A24D-AD1BBF070337}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD18B2D5-0021-493B-A24D-AD1BBF070337}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6A0CCB4-B693-4254-8495-CD5BE84A7852}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6A0CCB4-B693-4254-8495-CD5BE84A7852}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6A0CCB4-B693-4254-8495-CD5BE84A7852}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6A0CCB4-B693-4254-8495-CD5BE84A7852}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A5A7CF3-4C1A-42F5-A650-37BF84036351}
+	EndGlobalSection
+EndGlobal
