@@ -4,11 +4,11 @@ namespace Application;
 
 public class TokenBucket : IDisposable
 {
-    private static readonly object _throttleLock = new();
     private readonly int _configuredTokenSize;
     private readonly Timer _timer;
 
     private int _tokenSize;
+    private static object _throttleLock = new object();
 
     public TokenBucket(int tokenSize, int refillRateInMillisecond, bool enableAutoRefill)
     {
@@ -47,11 +47,6 @@ public class TokenBucket : IDisposable
     }
 
     private void Refill()
-    {
-        SetTokenSize(_configuredTokenSize);
-    }
-
-    private void SetTokenSize(int value)
     {
         var lockTaken = Monitor.TryEnter(_throttleLock, TimeSpan.FromMilliseconds(500));
         if (lockTaken)

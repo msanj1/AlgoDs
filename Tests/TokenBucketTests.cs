@@ -8,10 +8,6 @@ namespace Tests;
 
 public class TokenBucketTests : CommonTestsFixture
 {
-    public TokenBucketTests()
-    {
-        
-    }
     [Fact]
     public void ShouldThrottle_ShouldSucceedWhenNotThrottled()
     {
