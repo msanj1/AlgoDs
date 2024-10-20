@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseRobber", "HouseRobber\HouseRobber.csproj", "{CE766287-22E7-4687-98B7-3B3E3F5CEA53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{AE31F2B2-7A08-4249-A6BB-B21498DF8EC3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE766287-22E7-4687-98B7-3B3E3F5CEA53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE766287-22E7-4687-98B7-3B3E3F5CEA53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE766287-22E7-4687-98B7-3B3E3F5CEA53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE766287-22E7-4687-98B7-3B3E3F5CEA53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE31F2B2-7A08-4249-A6BB-B21498DF8EC3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE31F2B2-7A08-4249-A6BB-B21498DF8EC3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE31F2B2-7A08-4249-A6BB-B21498DF8EC3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE31F2B2-7A08-4249-A6BB-B21498DF8EC3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C3A0C6F8-60F6-4530-8350-92590C02D953}
+	EndGlobalSection
+EndGlobal
